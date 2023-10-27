@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  background-image: url('image/BG.png'); 
+  
+  background-size: cover; /* Cover the entire viewport with the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-attachment: fixed; /* Keep the background fixed as the content scrolls */
+}
+
+.next-train {
+  opacity: 0.67; */
+  border-radius: 40px;
+  border: 1px solid #E0943A;
+  background: linear-gradient(106deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%);
+  box-shadow: 5px 5px 0px 0px rgba(255, 255, 255, 0.25) inset, -5px -5px 0px 0px rgba(255, 255, 255, 0.25) inset;
+  backdrop-filter: blur(20px);
+  background-color: #a4a4a4;
+  color: #000000;
+  padding: 24px;
+  border-radius: 10px;
+  /* width: 300px; */
+  margin: 0 auto;
+}
+.next-train span {
+  float: right;
+}
+h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.arrival-time p {
+  border-radius: 10px;
+background: rgba(255, 255, 255, 0.30);
+box-shadow: 7px 7px 4px 0px rgba(255, 255, 255, 0.10) inset, -7px -7px 4px 0px rgba(255, 255, 255, 0.10) inset;
+backdrop-filter: blur(20px);
+  font-weight: 900;
+  text-align: left;
+  border-bottom: 1px solid #ccc; /* Add a 1px solid gray line at the bottom of each paragraph */
+  padding-bottom: 10px; /* Add some space between the text and the line */
+  padding-top:10px ;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.arrival-time p:last-child {
+  border-bottom: none; /* Remove the line from the last paragraph */
+}
